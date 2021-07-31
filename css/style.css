@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: #808080;
+  padding: 10px;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+.link:hover {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.nfLogo {
+  fill: #e50914;
+  line-height: normal;
+  display: inline-block;
+}
+
+.svg-icon {
+  margin: 15px 30px;
+}
+
+.svg-icon-netflix-logo {
+  width: 6.375rem;
+  height: 2.25rem;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.principal-movie .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.cover {
+  border-radius: 5px;
+  width: 300px;
+  height: 350px;
+}
+
+.custom-bg {
+  background-image: linear-gradient(to right, #070604 150px, rgba(7, 6, 4, 0.84) 100%);
+}
+
+.header-poster {
+  padding: 15px;
+  width: 60%;
+}
+
+.header-poster .actions {
+  margin-top: 40px;
+}
+
+.header-poster .actions .btn {
+  background-color: rgba(7, 6, 4, 0.5);
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.header-poster .actions .btn i {
+  margin-right: 5px;
+}
+
+.header-poster .actions .btn:hover {
+  background-color: #FFFFFF;
+  color: #141414;
+}
+
+.header-poster .actions .btn:nth-child(2) {
+  margin-left: 10px;
+}
+
+.header-poster .info {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 1.6rem;
+}
+
+section.movies .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 20px 20px;
+}
+
+section.movies .container .container-movies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.movies .container .container-movies .movie img {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+}
+
+section.movies .container h6 {
+  font-weight: bolder;
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .header-cover {
+    display: none;
+  }
+  .btn {
+    margin: 0px !important;
+  }
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .container nav {
+    margin-bottom: 20px;
+  }
+  .header-poster {
+    width: 80%;
+  }
+}
+
+.border {
+  border: 1px solid #e50914;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,130 @@
+.nfLogo {
+    fill: $color-red;
+    line-height: normal;  
+    display: inline-block;
+}
+
+.svg-icon{
+    margin: 15px 30px;
+}
+
+.svg-icon-netflix-logo {
+    width: 6.375rem;
+    height: 2.25rem;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.principal-movie{
+    // background: url('/netflix/img/tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+.cover{
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+}
+
+.custom-bg{
+    background-image: linear-gradient(to right, rgba(2.75%, 2.35%, 1.57%, 1.00) 150px, rgba(2.75%, 2.35%, 1.57%, 0.84) 100%);
+}
+
+.header-poster{
+    padding: 15px;    
+    width: 60%;
+
+    .actions{
+        margin-top: 40px;
+
+        .btn{
+            background-color: rgba(2.75%, 2.35%, 1.57%, 0.5);
+            color: $color-white;
+            border: none;
+            padding: 10px 30px;
+            cursor: pointer;
+            transition: 0.5s ease;
+
+            i{ 
+                margin-right: 5px;
+            }
+
+            &:hover{
+                background-color: $color-white;
+                color: $color-black;
+            }
+
+            &:nth-child(2){
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .info{
+        margin-top: 20px;
+        text-align: justify;
+        line-height: 1.6rem;      
+    }
+}
+
+section.movies .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 20px;
+
+    .container-movies{
+        display: flex;
+     
+        flex-direction: row;
+        align-items: center;
+
+        .movie img{
+            width: 200px;
+            height: 200px;
+            padding: 2px;
+        }
+    }
+
+    h6{
+        font-weight: bolder;
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .header-cover{
+        display: none;
+    }
+
+    .btn{
+        margin: 0px !important;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        nav{
+            margin-bottom: 20px;
+        }
+    }    
+
+    .header-poster{
+        width: 80%;
+    }
+}
