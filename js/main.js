@@ -28,7 +28,7 @@ var changeMovie = function(targetId){
    var description = document.getElementById('movieDescription');
    
    imgBackgroundCover.style.background = `url(img/${movie.image_background}) no-repeat`;
-   imgBackgroundCover.style.backgroundSize = "cover";
+   imgBackgroundCover.style.backgroundSize = '100% 100%';
 
    title.innerHTML = `<span class="bold">${movie.title}</span>`;
    description.innerText = movie.description;

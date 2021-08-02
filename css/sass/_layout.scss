@@ -55,6 +55,7 @@ header .container{
             color: $color-white;
             border: none;
             padding: 10px 30px;
+            width: 180px;
             cursor: pointer;
             transition: 0.5s ease;
 
@@ -111,7 +112,7 @@ section.movies .container{
     }
 
     .btn{
-        margin: 0px !important;
+        margin: 5px 0px !important;
     }
 
     header .container{
